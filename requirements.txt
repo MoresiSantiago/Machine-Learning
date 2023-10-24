@@ -1,0 +1,14 @@
+Package                Version
+---------------------- ---------
+pandas 2.0.2
+numpy  1.24.3
+pyarrow 12.0.1
+matplotlib 3.7.1
+seaborn   0.12.2
+fastapi 0.103.0
+orjson    3.9.7
+
+
+
+
+
