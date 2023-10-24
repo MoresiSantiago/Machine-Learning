@@ -35,6 +35,3 @@ def userdata (user_id :str):
         return 'user NO encontrado', 404
 
 
-if __name__ == "__app__":
-    app.run(host="localhost", port=8000)
-
