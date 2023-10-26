@@ -25,7 +25,7 @@ async def redirect_to_docs():
 def index():
         return {"message": "¡HOLA, Bienvenido!"}
 
-@app.get('/desarrollador/ {developer: str}')  # Cantidad de items y porcentajede contenido Free por año según empresa desarrolladora.
+@app.get('/desarrollador/ {developer: str}')  # Cantidad de items de los desarrolladores.
 def desarrollador(developer: str):
    
     developer_found = steam_data[steam_data['developer'] == developer]
