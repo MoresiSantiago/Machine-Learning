@@ -73,4 +73,7 @@ El término Deploy hace referencia al proceso de implementar o poner en funciona
 
 Este proceso de implementación permite que mi **`API`** deje de depender de un servidor local y comience a operar en servidores web, lo que proporciona una mayor disponibilidad y acceso público a la aplicación.
 
+¿ Que es **`API`**? API significa "Interfaz de Programación de Aplicaciones". Es un conjunto de reglas y protocolos que permiten que diferentes componentes de software se comuniquen entre sí. 
+    Las API son utilizadas por los desarrolladores para permitir que sus aplicaciones se conecten y utilicen funcionalidades proporcionadas por otros servicios, aplicaciones o plataformas.
+
 https://machine-learning-operations-wk0h.onrender.com/docs#/
