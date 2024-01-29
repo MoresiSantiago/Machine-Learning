@@ -77,25 +77,24 @@ Este proceso de implementación permite que mi **`API`** deje de depender de un 
     Las API son utilizadas por los desarrolladores para permitir que sus aplicaciones se conecten y utilicen funcionalidades proporcionadas por otros servicios, aplicaciones o plataformas.
 
 Dentro del API vas a encontrar varias funciones: 
- - 1º  :   def **PlayTimeGenre( *`genero` : str* )**:
-    Debe devolver `año` con mas horas jugadas para dicho género.
+ - 1º  :  def **developer( desarrollador : str )**
+     Cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora
 
-- 2º :  def **UserForGenre( *`genero` : str* )**:
-    Debe devolver el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año.
+- 2º :  def **userdata( User_id : str )** 
+     Debe devolver cantidad de dinero gastado por el usuario, el porcentaje de recomendación en base a reviews.recommend y cantidad de items.
  
-- 3º:  def **UsersRecommend( *`año` : int* )**:
-   Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos/neutrales)
+- 3º:  def **UserForGenre( genero : str )** 
+     Debe devolver el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año de lanzamiento.
 
-- 4º: def **UsersWorstDeveloper( *`año` : int* )**:
-   Devuelve el top 3 de desarrolladoras con juegos MENOS recomendados por usuarios para el año dado. (reviews.recommend = False y comentarios negativos)
+- 4º: def **best_developer_year( año : int )**
+      Devuelve el top 3 de desarrolladores con juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos)
 
-- 5º: def **sentiment_analysis( *`empresa desarrolladora` : str* )**:
-    Según la empresa desarrolladora, se devuelve un diccionario con el nombre de la desarrolladora como llave y una lista con la cantidad total 
-    de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor. 
-
+- 5º: def **developer_reviews_analysis( desarrolladora : str )** 
+     Según el desarrollador, se devuelve un diccionario con el nombre del desarrollador como llave y una lista con la cantidad total de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento como valor positivo o negativo.
 
 
 
 ##
 **Este link te lleva al Render:** 
+https://moresisantiagoml.onrender.com/docs
 
